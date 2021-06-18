@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CA90383889CC3241BBAFEF5 /* Pods_AwesomeDropdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0450C79B3ED151D680F4D89C /* Pods_AwesomeDropdown.framework */; };
+		A003962526799EC4008F7D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003962426799EC4008F7D61 /* AppDelegate.swift */; };
+		A003962726799EC4008F7D61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003962626799EC4008F7D61 /* SceneDelegate.swift */; };
+		A003962926799EC4008F7D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003962826799EC4008F7D61 /* ViewController.swift */; };
+		A003962C26799EC4008F7D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003962A26799EC4008F7D61 /* Main.storyboard */; };
+		A003962E26799EC7008F7D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A003962D26799EC7008F7D61 /* Assets.xcassets */; };
+		A003963126799EC7008F7D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003962F26799EC7008F7D61 /* LaunchScreen.storyboard */; };
+		A003963E26799F68008F7D61 /* CollapsableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003963D26799F68008F7D61 /* CollapsableView.swift */; };
+		A00396402679A358008F7D61 /* GMControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003963F2679A358008F7D61 /* GMControl.swift */; };
+		A00396422679AA11008F7D61 /* CollapsableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00396412679AA11008F7D61 /* CollapsableView.xib */; };
+		A00396442679AD14008F7D61 /* HolidayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00396432679AD14008F7D61 /* HolidayView.swift */; };
+		A00396462679B088008F7D61 /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00396452679B088008F7D61 /* AnimalView.swift */; };
+		A0039648267CF25E008F7D61 /* HolidayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0039647267CF25E008F7D61 /* HolidayView.xib */; };
+		A003964A267CF562008F7D61 /* AnimalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0039649267CF562008F7D61 /* AnimalView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0450C79B3ED151D680F4D89C /* Pods_AwesomeDropdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeDropdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A003962126799EC4008F7D61 /* AwesomeDropdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeDropdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A003962426799EC4008F7D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A003962626799EC4008F7D61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A003962826799EC4008F7D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A003962B26799EC4008F7D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A003962D26799EC7008F7D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A003963026799EC7008F7D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A003963226799EC7008F7D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A003963D26799F68008F7D61 /* CollapsableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableView.swift; sourceTree = "<group>"; };
+		A003963F2679A358008F7D61 /* GMControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMControl.swift; sourceTree = "<group>"; };
+		A00396412679AA11008F7D61 /* CollapsableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollapsableView.xib; sourceTree = "<group>"; };
+		A00396432679AD14008F7D61 /* HolidayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayView.swift; sourceTree = "<group>"; };
+		A00396452679B088008F7D61 /* AnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
+		A0039647267CF25E008F7D61 /* HolidayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolidayView.xib; sourceTree = "<group>"; };
+		A0039649267CF562008F7D61 /* AnimalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalView.xib; sourceTree = "<group>"; };
+		B0D03B1B47BC5584F47AAB72 /* Pods-AwesomeDropdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeDropdown.release.xcconfig"; path = "Target Support Files/Pods-AwesomeDropdown/Pods-AwesomeDropdown.release.xcconfig"; sourceTree = "<group>"; };
+		FD6460BC6A057B35B4A7C918 /* Pods-AwesomeDropdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeDropdown.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeDropdown/Pods-AwesomeDropdown.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A003961E26799EC4008F7D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA90383889CC3241BBAFEF5 /* Pods_AwesomeDropdown.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA6EAAB6B7270AF3197839E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD6460BC6A057B35B4A7C918 /* Pods-AwesomeDropdown.debug.xcconfig */,
+				B0D03B1B47BC5584F47AAB72 /* Pods-AwesomeDropdown.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A003961826799EC3008F7D61 = {
+			isa = PBXGroup;
+			children = (
+				A003962326799EC4008F7D61 /* AwesomeDropdown */,
+				A003962226799EC4008F7D61 /* Products */,
+				2DA6EAAB6B7270AF3197839E /* Pods */,
+				CCBE919F3003C91E94301877 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A003962226799EC4008F7D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A003962126799EC4008F7D61 /* AwesomeDropdown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A003962326799EC4008F7D61 /* AwesomeDropdown */ = {
+			isa = PBXGroup;
+			children = (
+				A003963C26799F42008F7D61 /* Custom */,
+				A003963826799EE4008F7D61 /* AppDelegate */,
+				A003963926799EF7008F7D61 /* ViewControllers */,
+				A003963A26799F0C008F7D61 /* Storyboards */,
+				A003963B26799F1B008F7D61 /* SupportFiles */,
+			);
+			path = AwesomeDropdown;
+			sourceTree = "<group>";
+		};
+		A003963826799EE4008F7D61 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A003962426799EC4008F7D61 /* AppDelegate.swift */,
+				A003962626799EC4008F7D61 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A003963926799EF7008F7D61 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A003962826799EC4008F7D61 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A003963A26799F0C008F7D61 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A003962A26799EC4008F7D61 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A003963B26799F1B008F7D61 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A003962D26799EC7008F7D61 /* Assets.xcassets */,
+				A003962F26799EC7008F7D61 /* LaunchScreen.storyboard */,
+				A003963226799EC7008F7D61 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		A003963C26799F42008F7D61 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				A003963D26799F68008F7D61 /* CollapsableView.swift */,
+				A00396412679AA11008F7D61 /* CollapsableView.xib */,
+				A003963F2679A358008F7D61 /* GMControl.swift */,
+				A00396432679AD14008F7D61 /* HolidayView.swift */,
+				A0039647267CF25E008F7D61 /* HolidayView.xib */,
+				A00396452679B088008F7D61 /* AnimalView.swift */,
+				A0039649267CF562008F7D61 /* AnimalView.xib */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		CCBE919F3003C91E94301877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0450C79B3ED151D680F4D89C /* Pods_AwesomeDropdown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A003962026799EC4008F7D61 /* AwesomeDropdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A003963526799EC7008F7D61 /* Build configuration list for PBXNativeTarget "AwesomeDropdown" */;
+			buildPhases = (
+				8B0ACC110664FFA91ED6239A /* [CP] Check Pods Manifest.lock */,
+				A003961D26799EC4008F7D61 /* Sources */,
+				A003961E26799EC4008F7D61 /* Frameworks */,
+				A003961F26799EC4008F7D61 /* Resources */,
+				E87C3C5BBA1A42DB285A9B95 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwesomeDropdown;
+			productName = AwesomeDropdown;
+			productReference = A003962126799EC4008F7D61 /* AwesomeDropdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A003961926799EC3008F7D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A003962026799EC4008F7D61 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A003961C26799EC3008F7D61 /* Build configuration list for PBXProject "AwesomeDropdown" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A003961826799EC3008F7D61;
+			productRefGroup = A003962226799EC4008F7D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A003962026799EC4008F7D61 /* AwesomeDropdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A003961F26799EC4008F7D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A003963126799EC7008F7D61 /* LaunchScreen.storyboard in Resources */,
+				A00396422679AA11008F7D61 /* CollapsableView.xib in Resources */,
+				A003964A267CF562008F7D61 /* AnimalView.xib in Resources */,
+				A0039648267CF25E008F7D61 /* HolidayView.xib in Resources */,
+				A003962E26799EC7008F7D61 /* Assets.xcassets in Resources */,
+				A003962C26799EC4008F7D61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B0ACC110664FFA91ED6239A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwesomeDropdown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87C3C5BBA1A42DB285A9B95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AwesomeDropdown/Pods-AwesomeDropdown-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AwesomeDropdown/Pods-AwesomeDropdown-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeDropdown/Pods-AwesomeDropdown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A003961D26799EC4008F7D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A003962926799EC4008F7D61 /* ViewController.swift in Sources */,
+				A003963E26799F68008F7D61 /* CollapsableView.swift in Sources */,
+				A003962526799EC4008F7D61 /* AppDelegate.swift in Sources */,
+				A00396442679AD14008F7D61 /* HolidayView.swift in Sources */,
+				A00396462679B088008F7D61 /* AnimalView.swift in Sources */,
+				A00396402679A358008F7D61 /* GMControl.swift in Sources */,
+				A003962726799EC4008F7D61 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A003962A26799EC4008F7D61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A003962B26799EC4008F7D61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A003962F26799EC7008F7D61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A003963026799EC7008F7D61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A003963326799EC7008F7D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A003963426799EC7008F7D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A003963626799EC7008F7D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6460BC6A057B35B4A7C918 /* Pods-AwesomeDropdown.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68S363QCVZ;
+				INFOPLIST_FILE = AwesomeDropdown/SupportFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LittlePeculiar.AwesomeDropdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A003963726799EC7008F7D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D03B1B47BC5584F47AAB72 /* Pods-AwesomeDropdown.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68S363QCVZ;
+				INFOPLIST_FILE = AwesomeDropdown/SupportFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LittlePeculiar.AwesomeDropdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A003961C26799EC3008F7D61 /* Build configuration list for PBXProject "AwesomeDropdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A003963326799EC7008F7D61 /* Debug */,
+				A003963426799EC7008F7D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A003963526799EC7008F7D61 /* Build configuration list for PBXNativeTarget "AwesomeDropdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A003963626799EC7008F7D61 /* Debug */,
+				A003963726799EC7008F7D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A003961926799EC3008F7D61 /* Project object */;
+}

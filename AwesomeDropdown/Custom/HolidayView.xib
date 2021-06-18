@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HolidayView" customModule="AwesomeDropdown" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="Tz2-hC-5Xg" id="dbk-C6-PPg"/>
+                <outlet property="holidayDateLabel" destination="s1f-xw-gst" id="kXl-lg-xg9"/>
+                <outlet property="holidayNameLabel" destination="T49-fC-sV6" id="zqg-Qe-jfl"/>
+                <outlet property="quickLabel" destination="RB9-NG-D74" id="Ar8-qq-DgA"/>
+                <outlet property="quickView" destination="6az-7W-SVM" id="c6g-BC-WDs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Tz2-hC-5Xg">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WF3-Fa-Edv">
+                    <rect key="frame" x="24" y="8" width="148.5" height="49"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Independence Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T49-fC-sV6">
+                            <rect key="frame" x="0.0" y="0.0" width="148.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05, July" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1f-xw-gst">
+                            <rect key="frame" x="0.0" y="28.5" width="60" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6az-7W-SVM">
+                    <rect key="frame" x="216" y="12.5" width="100" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tomorrow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RB9-NG-D74">
+                            <rect key="frame" x="18" y="11.5" width="64.5" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.87533274000000005" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Etb-Na-7a2"/>
+                        <constraint firstItem="RB9-NG-D74" firstAttribute="centerY" secondItem="6az-7W-SVM" secondAttribute="centerY" id="HLM-7q-W4b"/>
+                        <constraint firstItem="RB9-NG-D74" firstAttribute="centerX" secondItem="6az-7W-SVM" secondAttribute="centerX" id="Mrt-9g-4C7"/>
+                        <constraint firstAttribute="height" constant="40" id="vsW-TY-7vx"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="eB2-xO-Er6"/>
+            <color key="backgroundColor" red="0.01176470588" green="0.078431372550000003" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="6az-7W-SVM" firstAttribute="centerY" secondItem="WF3-Fa-Edv" secondAttribute="centerY" id="7fp-ru-WiF"/>
+                <constraint firstItem="WF3-Fa-Edv" firstAttribute="leading" secondItem="Tz2-hC-5Xg" secondAttribute="leading" constant="24" id="LBF-9T-NcN"/>
+                <constraint firstItem="WF3-Fa-Edv" firstAttribute="centerY" secondItem="Tz2-hC-5Xg" secondAttribute="centerY" id="SzK-tb-Jrx"/>
+                <constraint firstItem="eB2-xO-Er6" firstAttribute="trailing" secondItem="6az-7W-SVM" secondAttribute="trailing" constant="24" id="cye-LL-qKL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="7" y="131"/>
+        </view>
+    </objects>
+</document>
