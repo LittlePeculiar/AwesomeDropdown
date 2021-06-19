@@ -52,7 +52,7 @@ class HolidayView: UIView {
         upcoming
             .asDriver()
             .drive(onNext: { [weak self] show in
-                self?.quickView.isHidden = !show
+                self?.quickView.isHidden = show
             })
             .disposed(by: disposeBag)
         

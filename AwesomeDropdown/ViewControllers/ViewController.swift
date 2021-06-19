@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         
         let animal3 = AnimalView()
         let image3 = UIImage(named: "babybruce2")
-        animal3.configure(withAnimal: "Baby Bruce Wayne", detail: "looks so sweet and innocent", pic: image3)
+        animal3.configure(withAnimal: "Baby Bruce Wayne", detail: "looks so sweet and innocent but has no concept of personal space", pic: image3)
         stackView.addArrangedSubview(animal3)
         
         let headerImage = UIImage(named: "dog")

@@ -28,10 +28,7 @@ class CollapsableView: UIView {
     public func configure(withStack stack: UIStackView, title: String, image: UIImage?) {
         self.title.accept(title)
         self.image.accept(image)
-        for view in stack.arrangedSubviews {
-            self.listStackView.addArrangedSubview(view)
-        }
-        print(self.listStackView.arrangedSubviews.count)
+        self.listStackView.addArrangedSubview(stack)
         isCollapsed.accept(true)
     }
     
