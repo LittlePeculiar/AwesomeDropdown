@@ -23,15 +23,17 @@ class HolidayView: UIView {
     var quick = BehaviorRelay<String>(value: "")
     var upcoming = BehaviorRelay<Bool>(value: false)
     
-    public func configure(withHoliday name: String, date: String) {
+    public func configure(withHoliday name: String, date: String, coming: Bool) {
         self.holidayName.accept(name)
         self.holidayDate.accept(date)
-        showQuickView()
+        showQuickView(coming: coming)
     }
     
-    private func showQuickView() {
+    private func showQuickView(coming: Bool) {
         // todo if next holiday is upcoming
-        quick.accept("Coming Soon")
+        // if tomorrow, or withing a week
+        upcoming.accept(coming)
+        quick.accept("coming soon")
     }
     
     private func setupUI() {
@@ -52,7 +54,7 @@ class HolidayView: UIView {
         upcoming
             .asDriver()
             .drive(onNext: { [weak self] show in
-                self?.quickView.isHidden = show
+                self?.quickView.isHidden = !show
             })
             .disposed(by: disposeBag)
         

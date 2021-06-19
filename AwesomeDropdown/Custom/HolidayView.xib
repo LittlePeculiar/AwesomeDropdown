@@ -42,10 +42,10 @@
                             </subviews>
                         </stackView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6az-7W-SVM">
-                            <rect key="frame" x="215" y="12.5" width="100" height="40"/>
+                            <rect key="frame" x="215" y="17.5" width="100" height="30"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tomorrow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RB9-NG-D74">
-                                    <rect key="frame" x="18" y="11.5" width="64.5" height="17"/>
+                                    <rect key="frame" x="18" y="6.5" width="64.5" height="17"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
@@ -56,7 +56,7 @@
                                 <constraint firstAttribute="width" constant="100" id="Etb-Na-7a2"/>
                                 <constraint firstItem="RB9-NG-D74" firstAttribute="centerY" secondItem="6az-7W-SVM" secondAttribute="centerY" id="HLM-7q-W4b"/>
                                 <constraint firstItem="RB9-NG-D74" firstAttribute="centerX" secondItem="6az-7W-SVM" secondAttribute="centerX" id="Mrt-9g-4C7"/>
-                                <constraint firstAttribute="height" constant="40" id="vsW-TY-7vx"/>
+                                <constraint firstAttribute="height" constant="30" id="vsW-TY-7vx"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">

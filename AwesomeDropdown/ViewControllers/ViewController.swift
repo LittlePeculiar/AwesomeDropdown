@@ -30,15 +30,15 @@ class ViewController: UIViewController {
         stackView.axis = .vertical
         
         let holiday1 = HolidayView()
-        holiday1.configure(withHoliday: "Independence Day", date: "05 July")
+        holiday1.configure(withHoliday: "Independence Day", date: "05 July", coming: true)
         stackView.addArrangedSubview(holiday1)
         
         let holiday2 = HolidayView()
-        holiday2.configure(withHoliday: "Labor Day", date: "06 September")
+        holiday2.configure(withHoliday: "Labor Day", date: "06 September", coming: false)
         stackView.addArrangedSubview(holiday2)
         
         let holiday3 = HolidayView()
-        holiday3.configure(withHoliday: "Thanksgiving", date: "25 November")
+        holiday3.configure(withHoliday: "Thanksgiving", date: "25 November", coming: false)
         stackView.addArrangedSubview(holiday3)
         
         let headerImage = UIImage(named: "Reminders")
