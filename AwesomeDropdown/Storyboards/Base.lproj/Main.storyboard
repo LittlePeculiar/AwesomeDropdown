@@ -45,7 +45,7 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="w9Y-cs-4nX" secondAttribute="bottom" priority="750" constant="50" id="5ez-gE-cKi"/>
-                                            <constraint firstAttribute="height" constant="1000" id="6bM-OI-4Vc"/>
+                                            <constraint firstAttribute="height" priority="750" constant="1000" id="6bM-OI-4Vc"/>
                                             <constraint firstItem="w9Y-cs-4nX" firstAttribute="top" secondItem="dzF-g6-Ctq" secondAttribute="top" constant="100" id="7PK-G1-nqI"/>
                                             <constraint firstAttribute="trailing" secondItem="w9Y-cs-4nX" secondAttribute="trailing" constant="20" id="Dyv-Sv-Xh6"/>
                                             <constraint firstItem="w9Y-cs-4nX" firstAttribute="leading" secondItem="dzF-g6-Ctq" secondAttribute="leading" constant="20" id="Lla-lr-o0p"/>
