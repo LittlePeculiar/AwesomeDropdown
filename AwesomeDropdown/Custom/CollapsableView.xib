@@ -75,7 +75,7 @@
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="10U-4o-Rcw">
                             <rect key="frame" x="0.0" y="64" width="340" height="216"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="RL5-85-u1l">
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RL5-85-u1l">
                                     <rect key="frame" x="0.0" y="0.0" width="340" height="216"/>
                                 </stackView>
                             </subviews>
